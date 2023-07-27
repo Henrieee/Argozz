@@ -1,0 +1,61 @@
+body{
+    background-color: white
+}
+.heading{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+    
+div{
+    display: grid;
+    margin-left: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    height: 30px;
+    width: 120px;
+    transition: 0.15s;
+    
+}
+button:hover{
+ cursor: pointer;
+}
+button:active{
+opacity: 0.4;
+}
+h4{
+    padding-left: 20px;
+}
+
+    
+    
+
+a:visited{
+    color: black;
+}
+image{
+    width: 100%;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown{
+    margin-left: 10px;
+    float: left;
+    position: absolute;
+}
+.dropdown .content{
+    margin-top: 75px;
+    display: none;
+    background-color: hsl(0, 0%, 95%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+.dropdown:hover .content{
+    display: block;
+}
